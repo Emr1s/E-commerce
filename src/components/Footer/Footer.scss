@@ -1,0 +1,53 @@
+.footer {
+margin: 100px 200px 20px 200px;
+    .top{
+        display: flex;
+        gap: 25 px;
+    }
+    .item{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: justify;
+        margin: 10px;
+        font-size: 15px;
+
+        h1{
+            font-size: 18px;
+            font-weight: 500;
+            color: #555;
+
+        }
+        span{
+            color: gray;
+        }
+    }
+    .bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+
+        .left {
+            display: flex;
+            align-items: center;
+        }
+        .logo {
+            color: #2879fe;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .copyright {
+            margin-left: 20px;
+            font-size: 10px;
+            color: gray;
+        }
+        .right {
+            
+        }
+        .img-paymant {
+            height: 120px;
+        }
+    }
+}
